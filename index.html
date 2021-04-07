@@ -5,189 +5,245 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Ubiquity</title>
 </head>
 
 <body>
 
     <header class="main-header">
-        <nav>
-            <img src="" alt="Logo d'Ubiquity">
 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container-large">
+            <div class="logo">
+                <img src="img/logo.svg" alt="Logo d'Ubiquity">
+                <p class="logo-name">Ubiquity</p>
+                <p class="logo-desc">Professional Web UI</p>
+            </div>
+            <nav>
+                <ul class="main-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+
     </header>
 
     <section class="hero">
-        <h1>At Ubiquity, We care</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum aut facere consectetur eum quisquam neque nihil aspernatur, fugit quibusdam, aperiam voluptatem! Debitis.</p>
+        <div class="container-large">
+            <div class="container-medium">
+                <h1>At Ubiquity , We care</h1>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+            </div>
+            <button class="btn-left">
+                <img src="img/arrow-circle-left.svg" alt="Aller vers la gauche">
+            </button>
+            <button class="btn-right">
+                <img src="img/arrow-circle-right.svg" alt="Aller vers la droite">
+            </button>
+        </div>
     </section>
 
-    <section>
-        <h2>Our services</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse impedit deserunt sapiente ea at provident iusto culpa architecto neque et? Id, saepe. Tempore non laborum cumque?</p>
-        <ul>
-            <li>
-                <img src="" alt="">
-                <h3>Consultation</h3>
-                <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Blogging</h3>
-                <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>Social media</h3>
-                <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-            </li>
-            <li>
-                <img src="" alt="">
-                <h3>SEO</h3>
-                <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
-            </li>
-        </ul>
+    <section class="services">
+        <div class="container-large">
+            <div class="container-medium">
+                <h2>Our services</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse impedit deserunt sapiente ea at provident iusto culpa architecto neque et? Id, saepe. Tempore non laborum cumque?</p>
+            </div>
+            <ul class="services-list">
+                <li>
+                    <figure class="services-img"><img src="img/logo-case.svg" alt="Icône d'un sac d'affaires"></figure>
+                    <h3>Consultation</h3>
+                    <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li>
+                    <figure class="services-img"><img src="img/logo-notes.svg" alt="Icône d'un bloc-notes"></figure>
+                    <h3>Blogging</h3>
+                    <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li>
+                    <figure class="services-img"><img src="img/logo-star.svg" alt="Icône d'une étoile"></figure>
+                    <h3>Social media</h3>
+                    <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li>
+                    <figure class="services-img"><img src="img/logo-bolt.svg" alt="Icône d'un éclair"></figure>
+                    <h3>SEO</h3>
+                    <p>Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section>
-        <h2>What is Ubiquity</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quos a alias aliquid architecto, deserunt, explicabo, dolorem repellat id ipsa beatae dolore.</p>
+    <section class="presentation">
+        <div class="container-medium">
+            <h2>What is Ubiquity</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quos a alias aliquid architecto, deserunt, explicabo, dolorem repellat id ipsa beatae dolore.</p>
+            <img src="img/grp33/ubiquity-view.png" srcset="img/grp33/ubiquity-view@2x.png 2x" alt="Aperçu de fenêtres du site d'Ubiquity">
+        </div>
     </section>
 
-    <section>
-        <h2>Latest posts</h2>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum provident velit tempora.</p>
-        <li>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Blog title</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Title of the blog</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Title of the blog</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Blog title</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Blog title</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-            <ul>
-                <img src="" alt=""></ul>
-            <h3>Blog title</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis libero asperiores amet qui. Reiciendis, molestias.</p>
-        </li>
+    <section class="last-post">
+        <div class="container-large">
+            <div class="container-medium">
+                <h2>Latest posts</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum provident velit tempora.</p>
+            </div>
+            <ul class="post-grid">
+                <li class="post-card">
+                    <img src="img/annie-spratt-wgivdx9dBdQ-unsplash/annie-spratt.jpg" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash/annie-spratt@2x.jpg 2x" alt="Photo du bureau d'Annie Spratt">
+                    <h3>Blog Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+                <li class="post-card">
+                    <img src="img/william-iven-SpVHcbuKi6E-unsplash/william-iven.jpg" srcset="img/william-iven-SpVHcbuKi6E-unsplash/william-iven@2x.jpg 2x" alt="Photo du bureau de William Iven">
+                    <h3>Title of the Blog</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+                <li class="post-card">
+                    <img src="img/green-chameleon-s9CC2SKySJM-unsplash/green-chameleon.jpg" srcset="img/green-chameleon-s9CC2SKySJM-unsplash/green-chameleon@2x.jpg 2x" alt="Photo du bureau de Green Chameleon">
+                    <h3>Title of the Blog</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+                <li class="post-card">
+                    <img src="img/helloquence-5fNmWej4tAA-unsplash/helloquence.jpg" srcset="img/helloquence-5fNmWej4tAA-unsplash/helloquence@2x.jpg 2x" alt="Photo d'un bureau en co-working">
+                    <h3>Blog Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+                <li class="post-card">
+                    <img src="img/lauren-mancke-aOC7TSLb1o8/lauren-mancke.jpg" srcset="img/lauren-mancke-aOC7TSLb1o8/lauren-mancke@2x.jpg 2x" alt="Photo du bureau de Laurent Mancke">
+                    <h3>Blog Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+                <li class="post-card">
+                    <img src="img/annie-spratt-wgivdx9dBdQ-unsplash/annie-spratt.jpg" srcset="img/annie-spratt-wgivdx9dBdQ-unsplash/annie-spratt@2x.jpg 2x" alt="Photo du bureau d'Annie Spratt">
+                    <h3>Blog Title</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe sunt explicabo, officiis quos culpa laborum.</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section>
-        <h2>Fun facts</h2>
-        <ul>
-            <li>
-                <p>5</p>
-                <p>People</p>
-            </li>
-            <li>
-                <p>243</p>
-                <p>Pageviews</p>
-            </li>
-            <li>
-                <p>23</p>
-                <p>Coffes</p>
-            </li>
-            <li>
-                <p>600</p>
-                <p>Hours</p>
-            </li>
-            <li>
-                <p>40</p>
-                <p>Days</p>
-            </li>
-            <li>
-                <p>17</p>
-                <p>Websites</p>
-            </li>
-        </ul>
+    <section class="facts">
+        <div class="container-large">
+            <h2>Fun facts</h2>
+            <ul class="facts-list">
+                <li>
+                    <p class="facts-num">5</p>
+                    <p class="facts-type">People</p>
+                </li>
+                <li>
+                    <p class="facts-num">243</p>
+                    <p class="facts-type">Pageviews</p>
+                </li>
+                <li>
+                    <p class="facts-num">23</p>
+                    <p class="facts-type">Coffes</p>
+                </li>
+                <li>
+                    <p class="facts-num">600</p>
+                    <p class="facts-type">Hours</p>
+                </li>
+                <li>
+                    <p class="facts-num">40</p>
+                    <p class="facts-type">Days</p>
+                </li>
+                <li>
+                    <p class="facts-num">17</p>
+                    <p class="facts-type">Websites</p>
+                </li>
+            </ul>
+        </div>
     </section>
 
-    <section>
-        <img src="" alt="">
-        <h2>Amanda Sigfried</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+    <section class="comments">
+        <div class="container-large">
+            <figure>
+                <img src="img/amanda/amanda.jpg" srcset="img/amanda/amanda@2x.jpg 2x" alt="Photographie d'Amanda Sigfried sur son ordinateur">
+            </figure>
+            <article>
+                <h2>Amanda Sigfried</h2>
+                <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+            </article>
+        </div>
     </section>
 
     <footer>
-        <ul>
-            <li>
-                <h3>Recent post</h3>
-                <ul>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                </ul>
-            </li>
-            <li>
-                <h3>Recent comments</h3>
-                <ul>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                    <li><a href="#">Lorem, ipsum dolor.</a></li>
-                </ul>
-            </li>
-            <li>
-                <h3>Tags</h3>
-                <ul>
-                    <li><a href="#">Insider</a></li>
-                    <li><a href="#">Check</a></li>
-                    <li><a href="#">Demo</a></li>
-                    <li><a href="#">Office</a></li>
-                    <li><a href="#">Work</a></li>
-                    <li><a href="#">Post</a></li>
-                    <li><a href="#">Management</a></li>
-                </ul>
-            </li>
-            <li>
-                <h3>Ubiquity</h3>
-                <ul>
-                    <li><a href="#">2499Bee Street, Bear Lake Michigan 49614</a></li>
-                    <li><a href="#">231 - 864 - 8100</a></li>
-                    <li>
-                        <a href="mailto:Hello@domainename.com"></a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-        <section>
-            <p>© 2019 Ubiquity . All Rights Reserved.</p>
-            <ul>
+        <div class="container-large">
+            <ul class="footer-nav">
                 <li>
-                    <a href="#"><img src="" alt="Lien vers Facebook"></a>
+                    <h3>Recent post</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt="Lien vers Twitter"></a>
+                    <h3>Recent comments</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                        <li><a href="#">Lorem, ipsum dolor.</a></li>
+                    </ul>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt="Lien vers Google+"></a>
+                    <h3>Tags</h3>
+                    <ul class="footer-tags">
+                        <li><a href="#">Insider</a></li>
+                        <li><a href="#">Check</a></li>
+                        <li><a href="#">Demo</a></li>
+                        <li><a href="#">Office</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Post</a></li>
+                        <li><a href="#">Management</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Ubiquity</h3>
+                    <ul class="footer-contacts">
+                        <li>
+                            <img src="img/map-marker.svg" alt="">
+                            <a href="#">2499 Bee Street, Bear Lake <br> Michigan 49614</a>
+                        </li>
+                        <li>
+                            <img src="img/phone.svg" alt="">
+                            <a href="#">231 - 864 - 8100</a>
+                        </li>
+                        <li>
+                            <img src="img/envelope.svg" alt="">
+                            <a href="mailto:Hello@domainename.com">Hello@domainename.com</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
-        </section>
+
+            <hr>
+
+            <div class="foot-footer">
+                <p>© 2019 Ubiquity . All Rights Reserved.</p>
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/icons8-facebook.svg" alt="Lien vers Facebook"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/icons8-twitter.svg" alt="Lien vers Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/icons8-google-plus.svg" alt="Lien vers Google+"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
 
 </body>
