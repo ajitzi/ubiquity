@@ -355,6 +355,11 @@ section {
     box-shadow: var(--shadow-color) 0 2px 5px;
 }
 
+.post-card a {
+    text-decoration: none;
+    color: var(--primary-text);
+}
+
 .post-card img {
     margin-bottom: 7rem;
 }
@@ -508,18 +513,35 @@ footer h3 {
     padding: .5rem 1.2rem;
 }
 
+.footer-tags a:hover,
+.footer-tags a:focus {
+    color: var(--tags-color);
+    background-color: var(--footer-text);
+}
+
 .footer-links a {
     line-height: 2;
 }
 
-.footer-contacts li {
+.footer-links a:hover,
+.footer-links a:focus,
+.contacts-item a:hover,
+.contacts-item a:focus {
+    text-decoration: underline;
+    color: white;
+}
+
+.contacts-item {
     line-height: 1.6;
     padding-bottom: 2.5rem;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
 }
 
 .footer-contacts img {
-    display: inline-block;
-    padding-right: 1.5rem;
+    align-self: center;
 }
 
 footer hr {
