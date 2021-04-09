@@ -21,7 +21,12 @@
                 <p class="logo-desc">Professional Web UI</p>
             </div>
             <nav>
-                <ul class="main-nav">
+                <button aria-expanded="false" aria-controls="menu" class="toggle-menu">
+                    <svg id="i-menu" aria-label="Menu" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+                    <path d="M4 8 L28 8 M4 16 L28 16 M4 24 L28 24"></path>
+                  </svg>
+                </button>
+                <ul class="main-nav" id="menu" hidden>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Portfolio</a></li>
@@ -42,11 +47,12 @@
                     </div>
                 </div>
                 <button class="btn-left" id="left-arrow">
-                    <img src="img/arrow-circle-left.svg" alt="Aller vers la gauche">
+                        <img src="img/arrow-circle-left.svg" alt="Aller vers la gauche">
                 </button>
                 <button class="btn-right" id="right-arrow">
-                    <img src="img/arrow-circle-right.svg" alt="Aller vers la droite">
+                        <img src="img/arrow-circle-right.svg" alt="Aller vers la droite">
                 </button>
+
             </div>
             <div class="nav-dots">
                 <div class="dot"></div>
@@ -213,7 +219,7 @@
         <nav class="container-large">
             <ul class="footer-nav">
                 <li>
-                    <h3>Recent post</h3>
+                    <h4>Recent post</h4>
                     <ul class="footer-links">
                         <li><a href="#">Lorem, ipsum dolor.</a></li>
                         <li><a href="#">Lorem, ipsum dolor.</a></li>
@@ -223,7 +229,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h3>Recent comments</h3>
+                    <h4>Recent comments</h4>
                     <ul class="footer-links">
                         <li><a href="#">Lorem, ipsum dolor.</a></li>
                         <li><a href="#">Lorem, ipsum dolor.</a></li>
@@ -233,7 +239,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h3>Tags</h3>
+                    <h4>Tags</h4>
                     <ul class="footer-tags">
                         <li><a href="#">Insider</a></li>
                         <li><a href="#">Check</a></li>
@@ -245,7 +251,7 @@
                     </ul>
                 </li>
                 <li>
-                    <h3>Ubiquity</h3>
+                    <h4>Ubiquity</h4>
                     <ul class="footer-contacts">
                         <li class="contacts-item">
                             <img src="img/map-marker.svg" alt="" aria-hidden="true">
@@ -302,7 +308,7 @@
             </div>
         </nav>
     </footer>
-    <script src="script.js"></script>
+    <script src="script/menu.js"></script>
 </body>
 
 </html>
