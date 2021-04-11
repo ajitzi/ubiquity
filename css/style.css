@@ -163,6 +163,7 @@ section {
 .logo-desc {
     font-size: 1.4rem;
     text-align: left;
+    margin: 0;
 }
 
 .logo-name {
@@ -170,13 +171,30 @@ section {
     font-weight: 700;
     font-size: 2rem;
     text-align: left;
+    margin: 0;
 }
 
 
 /* Nav */
 
+.main-header .container {
+    position: relative;
+}
+
+.main-nav {
+    position: absolute;
+    width: 100%;
+    background: white;
+    left: 0;
+    top: 100%;
+    z-index: 1;
+}
+
 .main-nav li {
-    display: inline-block;
+    display: block;
+    top: 0;
+    margin: 4rem;
+    text-align: center;
 }
 
 .main-nav a {
@@ -195,18 +213,42 @@ section {
     color: #fff;
 }
 
+.toggle-menu {
+    background-color: transparent;
+    border: none;
+    padding: 1rem;
+}
+
+#i-menu {
+    stroke: var(--primary);
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
 [hidden] {
     display: none;
 }
 
 @media screen and (min-width:50em) {
+    .main-nav li {
+        display: inline-block;
+        margin: 0;
+    }
     .toggle-menu {
         display: none;
     }
     .main-nav {
         display: block;
+        position: relative;
+        z-index: 1;
     }
 }
+
+
+/* Élément | http://127.0.0.1:5500/index.html# */
+
+
+/* Élément | http://127.0.0.1:5500/index.html# */
 
 
 /* Main section */
